@@ -1,43 +1,18 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "total_fonts": 1026,
-  "tested_fonts": 1,
-  "last_updated": "2025-12-07",
+  "tested_fonts": 15,
+  "working_fonts": 1,
+  "test_date": "2025-12-06T20:55:02.736Z",
   "cdn_base_url": "https://cdn.jsdelivr.net/gh/milantekam98-gif/marathi-fonts@main/fonts/",
   "fonts": [
     {
       "id": 1,
-      "name": "DG Font 010 Regular",
+      "name": "DGFont010Regular",
       "file": "DGFont010Regular.ttf",
       "cdn_url": "https://cdn.jsdelivr.net/gh/milantekam98-gif/marathi-fonts@main/fonts/DGFont010Regular.ttf",
-      "category": "Regular",
       "tested": true,
-      "working": true,
-      "file_size": "Unknown",
-      "preview_text": "[translate:मराठी फॉन्ट]"
-    },
-    {
-      "id": 2,
-      "name": "S0700892",
-      "file": "S0700892.TTF",
-      "cdn_url": "https://cdn.jsdelivr.net/gh/milantekam98-gif/marathi-fonts@main/fonts/S0700892.TTF",
-      "category": "Stylish",
-      "tested": true,
-      "working": false,
-      "file_size": "Unknown",
-      "preview_text": "[translate:मराठी फॉन्ट]",
-      "note": "Font loading issue - needs investigation"
+      "working": true
     }
-  ],
-  "categories": [
-    "Regular",
-    "Stylish",
-    "Decorative",
-    "Professional"
-  ],
-  "usage_example": {
-    "html": "@font-face { font-family: 'CustomFont'; src: url('CDN_URL_HERE'); }",
-    "css": ".marathi-text { font-family: 'CustomFont', sans-serif; }",
-    "javascript": "const font = new FontFace('CustomFont', 'url(CDN_URL)'); font.load().then(f => document.fonts.add(f));"
-  }
+  ]
 }
